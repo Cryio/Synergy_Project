@@ -3,7 +3,7 @@
 
 ### Overview
 
-Cryio's Application is a mobile application built with Flutter and Dart. It serves as a versatile platform with various features, including a dynamic dashboard, user authentication, and more. The application follows a structured architecture and utilizes several libraries and tools to enhance functionality and user experience.
+This project is a mobile application built with Flutter and Dart. It serves as a versatile platform with various features, including a dynamic dashboard, user authentication, and more. The application follows a structured architecture and utilizes several libraries and tools to enhance functionality and user experience.
 
 ### System requirements
 
