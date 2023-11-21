@@ -20,11 +20,20 @@ class SideMenu extends StatelessWidget {
           child: Column(
             children: [
               const SizedBox(
-                height: 50,
+                height: 40,
               ),
               iconBuilder(assetName: 'assets/home.svg', label: 'Home'),
+              const SizedBox(
+                height: 40,
+              ),
               iconBuilder(assetName: 'assets/home.svg', label: 'Settings'),
+              const SizedBox(
+                height: 40,
+              ),
               iconBuilder(assetName: 'assets/home.svg', label: 'Logout'),
+              const SizedBox(
+                height: 40,
+              ),
             ],
           ),
         ),
