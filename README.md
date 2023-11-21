@@ -68,4 +68,4 @@ After successful build, the application structure should look like this:
 
 ### Support
 
-For issues, questions, or feedback, feel free to create issues or start discussions.
+For issues, questions, or feedback, feel free to [create issues](https://github.com/Cryio/Synergy_Project/issues) or [start discussions](https://github.com/Cryio/Synergy_Project/discussions).
