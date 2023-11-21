@@ -5,7 +5,7 @@ import 'login_screen.dart';
 class RootScreen extends StatefulWidget {
   static const routeName = '/';
 
-  RootScreen({Key? key}) : super(key: key);
+  const RootScreen({Key? key}) : super(key: key);
 
   @override
   _RootScreenState createState() => _RootScreenState();
@@ -21,12 +21,12 @@ class _RootScreenState extends State<RootScreen> {
   }
 
   Future<bool> _getUserSessionStatus() async {
-    await Future.delayed(Duration(seconds: 1));
+    await Future.delayed(const Duration(seconds: 1));
     return true;
   }
 
   Widget _loadingScreen() {
-    return Center(
+    return const Center(
       child: CircularProgressIndicator(),
     );
   }
@@ -41,12 +41,12 @@ class _RootScreenState extends State<RootScreen> {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return _loadingScreen();
           } else if (snapshot.hasError) {
-            return Center(
+            return const Center(
               child: Text('Error loading user session'),
             );
           } else {
-            bool _userLoginStatus = snapshot.data ?? false;
-            return _userLoginStatus ? DashboardScreen() : LoginPage(title: 'LoginPage');
+            bool userLoginStatus = snapshot.data ?? false;
+            return userLoginStatus ? const DashboardScreen() : const LoginPage(title: 'LoginPage');
           }
         },
       ),

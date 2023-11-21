@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'dashboard_screen.dart';
-import 'login_screen.dart';
 import 'root_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 ColorScheme defaultColorScheme = const ColorScheme(
@@ -22,6 +21,8 @@ ColorScheme defaultColorScheme = const ColorScheme(
 );
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -32,8 +33,8 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: RootScreen.routeName,
       routes: {
-        RootScreen.routeName: (context) => RootScreen(),
-        DashboardScreen.routeName: (context) => DashboardScreen(),
+        RootScreen.routeName: (context) => const RootScreen(),
+        DashboardScreen.routeName: (context) => const DashboardScreen(),
       },
     );
   }

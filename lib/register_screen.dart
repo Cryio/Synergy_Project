@@ -15,12 +15,12 @@ class RegisterPage extends StatefulWidget {
 
 class _RegisterPageState extends State<RegisterPage> {
   final _formKey = GlobalKey<FormState>();
-  TextEditingController _firstNameController = TextEditingController();
-  TextEditingController _lastNameController = TextEditingController();
-  TextEditingController _emailController = TextEditingController();
-  TextEditingController _passwordController = TextEditingController();
+  final TextEditingController _firstNameController = TextEditingController();
+  final TextEditingController _lastNameController = TextEditingController();
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
 
-  LocalFileSystem localFileSystem = LocalFileSystem();
+  LocalFileSystem localFileSystem = const LocalFileSystem();
 
   @override
   Widget build(BuildContext context) {
@@ -157,7 +157,6 @@ class _RegisterPageState extends State<RegisterPage> {
   Future<void> _saveDataToCSV() async {
     try {
       String fileName = 'user_data.csv';
-      Directory appDocDir = localFileSystem.directory('');
       File file = localFileSystem.file('D:/Compre prep/TestAPP/$fileName');
 
 

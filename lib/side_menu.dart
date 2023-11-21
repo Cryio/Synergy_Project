@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'login_screen.dart';
 
 class SideMenu extends StatelessWidget {
+  const SideMenu({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Drawer(
@@ -12,26 +14,23 @@ class SideMenu extends StatelessWidget {
         // Important: Remove any padding from the ListView.
         padding: EdgeInsets.zero,
         children: <Widget>[
-          DrawerHeader(
-            child: Text('Drawer'),
+          const DrawerHeader(
             decoration: BoxDecoration(
               color: Colors.black,
             ),
+            child: Text('Drawer'),
           ),
           ListTile(
-            title: Text('Item 1'),
+            title: const Text('Item 1'),
             onTap: () {
               print("Item 1");
             },
           ),
           ListTile(
-            title: Text('Logout'),
+            title: const Text('Logout'),
             onTap: () {
-              // Navigator.pop(context);
-              // Future.delayed(Duration(seconds: 3), (){
               print("Logging out to login screen");
               Navigator.popAndPushNamed(context, LoginPage.routeName);
-              // });
             },
           ),
         ],
