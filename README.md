@@ -45,23 +45,26 @@ After successful build, the application structure should look like this:
     ├── u_list_tile.dart            - Definition of the UListTile widget
 
 ```
-### Features
+## Libraries and Tools
 
-Dynamic Dashboard: A versatile dashboard providing real-time updates.
-User Authentication: Secure user login and registration functionality.
-Responsive Design: Ensures a consistent experience across different devices.
-Data Management: Efficient handling and storage of application data.
+- [`get`](https://pub.dev/packages/get)
+- [`cupertino_icons`](https://pub.dev/packages/cupertino_icons)
+- [`flutter_animate`](https://pub.dev/packages/flutter_animate)
+- [`blobs`](https://pub.dev/packages/blobs)
+- [`csv`](https://pub.dev/packages/csv)
+- [`email_validator`](https://pub.dev/packages/email_validator)
+- [`path_provider`](https://pub.dev/packages/path_provider)
+- [`file`](https://pub.dev/packages/file)
+- [`fl_chart`](https://pub.dev/packages/fl_chart)
+- [`flutter_svg`](https://pub.dev/packages/flutter_svg)
 
-### Libraries and tools used
 
-- get - State management
-  https://pub.dev/packages/get
-- connectivity_plus - For status of network connectivity
-  https://pub.dev/packages/connectivity_plus
-- shared_preferences - Provide persistent storage for simple data
-  https://pub.dev/packages/shared_preferences
-- cached_network_image - For storing internet image into cache
-  https://pub.dev/packages/cached_network_image
+## Features
+
+- **Dynamic Dashboard:** A versatile dashboard providing real-time updates.
+- **User Authentication:** Secure user login and registration functionality.
+- **Responsive Design:** Ensures a consistent experience across different devices.
+- **Data Management:** Efficient handling and storage of application data.
 
 ### Support
 
