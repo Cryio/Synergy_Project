@@ -26,7 +26,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Navigation POC',
+      debugShowCheckedModeBanner: false,
+      title: 'Smart Lock',
       theme: ThemeData(
         colorScheme: defaultColorScheme,
         primarySwatch: Colors.blue,

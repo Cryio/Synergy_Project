@@ -41,6 +41,8 @@ dependencies:
   email_validator: ^2.1.17
   path_provider: ^2.1.1
   file: ^7.0.0
+  fl_chart: ^0.64.0
+  flutter_svg: ^2.0.9
 
 dev_dependencies:
   flutter_test:
@@ -68,6 +70,14 @@ flutter:
   assets:
     - assets/user_credentials.csv
     - assets/logo.png
+    - assets/transfer.svg
+    - assets/ring.svg
+    - assets/home.svg
+    - assets/verify.svg
+#    - assets/profile.svg
+    - assets/card.svg
+    - assets/user_data.csv
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

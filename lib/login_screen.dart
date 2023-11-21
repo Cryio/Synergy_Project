@@ -31,7 +31,9 @@ class _LoginPageState extends State<LoginPage> {
 
   void _loadCredentials() async {
     try {
-      String csvFilePath = 'D:/Compre prep/TestAPP/user_data.csv';
+      // String csvFilePath = 'D:/Compre_prep/TestAPP/user_data.csv';
+      String csvFilePath = 'assets/user_data.csv';
+
       File csvFile = File(csvFilePath);
       String csvString = await csvFile.readAsString();
 

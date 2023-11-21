@@ -156,36 +156,20 @@ class _RegisterPageState extends State<RegisterPage> {
 
   Future<void> _saveDataToCSV() async {
     try {
-      String fileName = 'user_data.csv';
-      File file = localFileSystem.file('D:/Compre prep/TestAPP/$fileName');
-
-
-      // Check if the file exists
+      File file = localFileSystem.file('assets/user_data.csv');
       bool fileExists = await file.exists();
-
-      // If the file doesn't exist, create it with a header row
       if (!fileExists) {
         await file.writeAsString('First Name,Last Name,Email,Password,\n');
       }
-
-      // Read existing CSV content
       String existingCsv = await file.readAsString();
-
-      // Parse the existing CSV content
       List<List<dynamic>> csvList = const csv.CsvToListConverter().convert(existingCsv);
-
-      // Add new data to the CSV list
       csvList.add([
         _firstNameController.text,
         _lastNameController.text,
         _emailController.text,
         _passwordController.text,
       ]);
-
-      // Convert the CSV list back to a CSV string
       String newCsv = const csv.ListToCsvConverter().convert(csvList);
-
-      // Write the updated CSV string back to the file
       await file.writeAsString(newCsv);
 
       print("Data saved to file: ${file.path}");
