@@ -13,6 +13,7 @@ Flutter SDK Version 3.3.0 or greater.
 ### Figma design for refrence
 
 [Project](https://www.figma.com/file/VfFZGC6PmsM6e7hTfQaEmi/Synergy?type=design&node-id=33%3A444&mode=design&t=8kv3jxHmZcHsl1n1-1)<br>
+
 [Prototype](https://www.figma.com/proto/VfFZGC6PmsM6e7hTfQaEmi/Synergy?type=design&node-id=33-696&t=OH4Vd0QvkHxCdy1i-1&scaling=scale-down&page-id=33%3A444&starting-point-node-id=33%3A696&mode=design)
 
 ### Application structure
