@@ -74,7 +74,6 @@ flutter:
     - assets/ring.svg
     - assets/home.svg
     - assets/verify.svg
-#    - assets/profile.svg
     - assets/card.svg
     - assets/user_data.csv
 
