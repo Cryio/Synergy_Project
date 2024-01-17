@@ -34,7 +34,7 @@ Solution:
 
 ## Figma Design for Reference
 
-- [Project]([https://www.figma.com/file/VfFZGC6PmsM6e7hTfQaEmi/Synergy?type=design&node-id=33%3A444&mode=design&t=8kv3jxHmZcHsl1n1-1](https://www.figma.com/file/sNhwQRgpUVq5gyDMJ5i4Lw/App-Framework-(Solution-Chal.)?type=design&node-id=0%3A1&mode=design&t=y5eOvFFoF4l8Zxwb-1))
+- [Project](https://www.figma.com/file/sNhwQRgpUVq5gyDMJ5i4Lw/App-Framework-(Solution-Chal.)?type=design&node-id=0%3A1&mode=design&t=y5eOvFFoF4l8Zxwb-1)
 
 ## Application Structure
 
