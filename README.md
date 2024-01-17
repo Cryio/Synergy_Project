@@ -1,30 +1,31 @@
 # UniHealth Application
 
 ## Problem Statement
-Students living in hostels often face challenges in accessing timely and efficient healthcare services, particularly when dealing with illnesses that hinder their ability to visit the health centre in person. Additionally, health centre staff may struggle to track student health progress and allocate resources effectively.
-UN SDG: 4- good health and well being
+Students living in hostels often face challenges in accessing timely and efficient healthcare services, particularly when dealing with illnesses that hinder their ability to visit the health center in person. Additionally, health center staff may struggle to track student health progress and allocate resources effectively.
+
+**UN SDG: 4- good health and well-being**
 
 ### For Students
-Physical Barriers: Illness can make even short treks to the health centre difficult, especially for students with mobility limitations, chronic conditions, or contagious illnesses. Fear of spreading illness to others may further deter visits.
-Lack of Awareness: Students may be unaware of available healthcare services or hesitant to seek help due to stigma or fear of judgement. The process of accessing care can be unclear or complex, leading to missed opportunities for preventative measures or early intervention.
-Communication Bottlenecks: Traditional methods of communication like phone calls or in-person visits can be inconvenient or ineffective, especially for students facing isolation due to illness. Difficulty reaching or communicating with a doctor can lead to frustration and delayed treatment.
+- **Physical Barriers:** Illness can make even short treks to the health center difficult, especially for students with mobility limitations, chronic conditions, or contagious illnesses. Fear of spreading illness to others may further deter visits.
+- **Lack of Awareness:** Students may be unaware of available healthcare services or hesitant to seek help due to stigma or fear of judgment. The process of accessing care can be unclear or complex, leading to missed opportunities for preventative measures or early intervention.
+- **Communication Bottlenecks:** Traditional methods of communication like phone calls or in-person visits can be inconvenient or ineffective, especially for students facing isolation due to illness. Difficulty reaching or communicating with a doctor can lead to frustration and delayed treatment.
 
 ### For Health Centre Staff
-Difficulty in monitoring: Lack of regular monitoring makes it difficult to track progress and adjust care plans as needed.
-Disconnect with Students: Physical distance and limited interaction can hamper building trust and rapport with students. This can affect communication, adherence to treatment plans, and overall healthcare outcomes.
+- **Difficulty in Monitoring:** Lack of regular monitoring makes it difficult to track progress and adjust care plans as needed.
+- **Disconnect with Students:** Physical distance and limited interaction can hamper building trust and rapport with students. This can affect communication, adherence to treatment plans, and overall healthcare outcomes.
 
 ### For University Admin and Parents
-Parents often feel helpless and anxious when their children, especially at a distance, fall ill. It does not help that none of the heath updates about their ward is provided to them systematically. 
-Managing student health concerns on top of existing responsibilities can be overwhelming for wardens, straining their capacity and impacting other duties.
-The lack of communication and information flow between health centres, wardens, and parents can exacerbate the problem for everyone involved.
+Parents often feel helpless and anxious when their children, especially at a distance, fall ill. It does not help that none of the health updates about their ward is provided to them systematically. Managing student health concerns on top of existing responsibilities can be overwhelming for wardens, straining their capacity and impacting other duties. The lack of communication and information flow between health centers, wardens, and parents can exacerbate the problem for everyone involved.
 
 ## Solution
-1. App which has Student name, hostel name, room no., contact no. as their details
-2. Whenever there health is bad they make a new log into the app
-3. Doctors in Health centre will have access to new entry of health problem, then they can track their health
-4. Initially the student can type out his/her issue then the doctor can type back the cure if medicine is required then he/she can come over and take meds, if health very bad then maybe someone from health centre can come and provide medicine and assistance
-5. Students will log their health progress for the doctors to know
-6. When the student feels good , he/she can close the health issue and doctors can mark it complete
+1. **App with Student Details:** The application includes student name, hostel name, room no., and contact no. as their details.
+2. **Health Logs:** Students can create a new log in the app when they experience health issues.
+3. **Doctor Access:** Doctors in the health center will have access to new health issue entries to track student health.
+4. **Communication Platform:** Students can describe their health issue, and doctors can respond with recommended treatments. If medication is required, students can come to the health center to collect it. In severe cases, health center staff can visit the student to provide assistance.
+5. **Health Progress Tracking:** Students can regularly log their health progress for doctors to monitor.
+6. **Closure of Health Issues:** Once students feel better, they can close the health issue, and doctors can mark it as complete.
+
+*Note: The above solution is designed to address the mentioned problems and improve communication and healthcare services within the university environment.*
 
 
 ## Application Structure
