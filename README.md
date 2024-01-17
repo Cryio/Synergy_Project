@@ -18,8 +18,7 @@ Parents often feel helpless and anxious when their children, especially at a dis
 Managing student health concerns on top of existing responsibilities can be overwhelming for wardens, straining their capacity and impacting other duties.
 The lack of communication and information flow between health centres, wardens, and parents can exacerbate the problem for everyone involved.
 
-
-Solution:
+## Solution
 1. App which has Student name, hostel name, room no., contact no. as their details
 2. Whenever there health is bad they make a new log into the app
 3. Doctors in Health centre will have access to new entry of health problem, then they can track their health
@@ -27,14 +26,6 @@ Solution:
 5. Students will log their health progress for the doctors to know
 6. When the student feels good , he/she can close the health issue and doctors can mark it complete
 
-## System Requirements
-
-- Dart SDK Version 2.18.0 or higher.
-- Flutter SDK Version 3.3.0 or higher.
-
-## Figma Design for Reference
-
-- [Project](https://www.figma.com/file/sNhwQRgpUVq5gyDMJ5i4Lw/App-Framework-(Solution-Chal.)?type=design&node-id=0%3A1&mode=design&t=y5eOvFFoF4l8Zxwb-1)
 
 ## Application Structure
 
@@ -68,6 +59,14 @@ Upon successful build, the application structure should resemble the following:
     ├── u_list_tile.dart            - Definition of the UListTile widget
 
 ```
+## System Requirements
+
+- Dart SDK Version 2.18.0 or higher.
+- Flutter SDK Version 3.3.0 or higher.
+
+## Figma Design for Reference
+
+- [Project](https://www.figma.com/file/sNhwQRgpUVq5gyDMJ5i4Lw/App-Framework-(Solution-Chal.)?type=design&node-id=0%3A1&mode=design&t=y5eOvFFoF4l8Zxwb-1)
 
 ## Libraries and Tools
 
