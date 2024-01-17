@@ -1,24 +1,24 @@
+# UniHealth_Application
 
-# Cryio's_application
+## Overview
 
-### Overview
+UniHealth is a mobile application crafted using Flutter and Dart. This versatile platform incorporates a dynamic dashboard, robust user authentication, and other essential features. The application follows a well-organized architecture and leverages various libraries and tools to enhance functionality and provide an optimal user experience.
 
-This project is a mobile application built with Flutter and Dart. It serves as a versatile platform with various features, including a dynamic dashboard, user authentication, and more. The application follows a structured architecture and utilizes several libraries and tools to enhance functionality and user experience.
+## System Requirements
 
-### System requirements
+- Dart SDK Version 2.18.0 or higher.
+- Flutter SDK Version 3.3.0 or higher.
 
-Dart SDK Version 2.18.0 or greater.<br>
-Flutter SDK Version 3.3.0 or greater.
+## Figma Design for Reference
 
-### Figma design for refrence
+- [Project](https://www.figma.com/file/VfFZGC6PmsM6e7hTfQaEmi/Synergy?type=design&node-id=33%3A444&mode=design&t=8kv3jxHmZcHsl1n1-1)
+- [Prototype](https://www.figma.com/proto/VfFZGC6PmsM6e7hTfQaEmi/Synergy?type=design&node-id=33-696&t=OH4Vd0QvkHxCdy1i-1&scaling=scale-down&page-id=33%3A444&starting-point-node-id=33%3A696&mode=design)
 
-[Project](https://www.figma.com/file/VfFZGC6PmsM6e7hTfQaEmi/Synergy?type=design&node-id=33%3A444&mode=design&t=8kv3jxHmZcHsl1n1-1)<br>
+## Application Structure
 
-[Prototype](https://www.figma.com/proto/VfFZGC6PmsM6e7hTfQaEmi/Synergy?type=design&node-id=33-696&t=OH4Vd0QvkHxCdy1i-1&scaling=scale-down&page-id=33%3A444&starting-point-node-id=33%3A696&mode=design)
+Upon successful build, the application structure should resemble the following:
 
-### Application structure
 
-After successful build, the application structure should look like this:
 
 ```
 .
@@ -46,27 +46,28 @@ After successful build, the application structure should look like this:
     ├── u_list_tile.dart            - Definition of the UListTile widget
 
 ```
+
 ## Libraries and Tools
 
-- [`get`](https://pub.dev/packages/get)
-- [`cupertino_icons`](https://pub.dev/packages/cupertino_icons)
-- [`flutter_animate`](https://pub.dev/packages/flutter_animate)
-- [`blobs`](https://pub.dev/packages/blobs)
-- [`csv`](https://pub.dev/packages/csv)
-- [`email_validator`](https://pub.dev/packages/email_validator)
-- [`path_provider`](https://pub.dev/packages/path_provider)
-- [`file`](https://pub.dev/packages/file)
-- [`fl_chart`](https://pub.dev/packages/fl_chart)
-- [`flutter_svg`](https://pub.dev/packages/flutter_svg)
-
+- [get](https://pub.dev/packages/get)
+- [cupertino_icons](https://pub.dev/packages/cupertino_icons)
+- [flutter_animate](https://pub.dev/packages/flutter_animate)
+- [blobs](https://pub.dev/packages/blobs)
+- [csv](https://pub.dev/packages/csv)
+- [email_validator](https://pub.dev/packages/email_validator)
+- [path_provider](https://pub.dev/packages/path_provider)
+- [file](https://pub.dev/packages/file)
+- [fl_chart](https://pub.dev/packages/fl_chart)
+- [flutter_svg](https://pub.dev/packages/flutter_svg)
 
 ## Features
 
-- **Dynamic Dashboard:** A versatile dashboard providing real-time updates.
+- **Dynamic Dashboard:** A versatile dashboard providing real-time health updates.
 - **User Authentication:** Secure user login and registration functionality.
 - **Responsive Design:** Ensures a consistent experience across different devices.
-- **Data Management:** Efficient handling and storage of application data.
+- **Data Management:** Efficient handling and storage of health-related data.
 
-### Support
+## Support
 
-For issues, questions, or feedback, feel free to [create issues](https://github.com/Cryio/Synergy_Project/issues) or [start discussions](https://github.com/Cryio/Synergy_Project/discussions).
+For issues, questions, or feedback, feel free to [create issues](https://github.com/UniHealth/UniHealth_Application/issues) or [start discussions](https://github.com/UniHealth/UniHealth_Application/discussions).
+
