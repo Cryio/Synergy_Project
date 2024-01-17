@@ -3,7 +3,7 @@
 ## Problem Statement
 Students living in hostels often face challenges in accessing timely and efficient healthcare services, particularly when dealing with illnesses that hinder their ability to visit the health center in person. Additionally, health center staff may struggle to track student health progress and allocate resources effectively.
 
-> [!UN SDG]
+> [!UNSDG]
 > United Nations Sustainable Development Goal : 4
 > Good Health and Well-being
 > 
