@@ -5,7 +5,10 @@ Students living in hostels often face challenges in accessing timely and efficie
 
 > [United Nations Sustainable Development Goal : 4]
 > Good Health and Well-being
-
+#
+> [!IMPORTANT]
+> Install script will auto-detect nvidia card and install nvidia-dkms drivers for your kernel.
+> 
 ### For Students
 - **Physical Barriers:** Illness can make even short treks to the health center difficult, especially for students with mobility limitations, chronic conditions, or contagious illnesses. Fear of spreading illness to others may further deter visits.
 - **Lack of Awareness:** Students may be unaware of available healthcare services or hesitant to seek help due to stigma or fear of judgment. The process of accessing care can be unclear or complex, leading to missed opportunities for preventative measures or early intervention.
