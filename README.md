@@ -1,10 +1,10 @@
 # UniHealth_Application
 
-Problem Statement:
+## Problem Statement
 Students living in hostels often face challenges in accessing timely and efficient healthcare services, particularly when dealing with illnesses that hinder their ability to visit the health centre in person. Additionally, health centre staff may struggle to track student health progress and allocate resources effectively.
 UN SDG: 4- good health and well being
 
-For Students: 
+## For Students
 Physical Barriers: Illness can make even short treks to the health centre difficult, especially for students with mobility limitations, chronic conditions, or contagious illnesses. Fear of spreading illness to others may further deter visits.
 Lack of Awareness: Students may be unaware of available healthcare services or hesitant to seek help due to stigma or fear of judgement. The process of accessing care can be unclear or complex, leading to missed opportunities for preventative measures or early intervention.
 Communication Bottlenecks: Traditional methods of communication like phone calls or in-person visits can be inconvenient or ineffective, especially for students facing isolation due to illness. Difficulty reaching or communicating with a doctor can lead to frustration and delayed treatment.
