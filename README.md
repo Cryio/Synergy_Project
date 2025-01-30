@@ -1,8 +1,9 @@
 # UniHealth Application
 Find YouTube video submission here:
+[![Watch the video](https://img.youtube.com/vi/5ObD-T3RhlM/0.jpg)](https://www.youtube.com/watch?v=5ObD-T3RhlM)
 
-[![Watch the video](https://img.youtube.com/vi/5ObD-T3RhlM/1.jpg)](https://www.youtube.com/watch?v=5ObD-T3RhlM)
 Give it a watch :)
+---
 ## Problem Statement
 Students living in hostels often face challenges in accessing timely and efficient healthcare services, particularly when dealing with illnesses that hinder their ability to visit the health center in person. Additionally, health center staff may struggle to track student health progress and allocate resources effectively.
 
